@@ -23,7 +23,7 @@ Feature: JPH03 Kullanici test datalarini Feature icinde testten once tanimlayabi
               "id":70
               }
               """
-
+  @api
   Scenario: TC03 Background Kullanilabilmeli
 
     Given url baseUrl
