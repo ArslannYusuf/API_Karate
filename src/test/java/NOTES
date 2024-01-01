@@ -9,10 +9,11 @@ NOTES:
    * target/surefire-reports dosyasi altinda yer alan raporlari karatere frameworku plugin eklemeden otomatik olarak hazirlamakta
 
    * karate framework sayesinde farkli package'lar olusturmaya gerek kalmiyor
-         ancak, ayni olan testler icin tek bir package icerinde
+         ancak, ayni olan testler icin tek bir package icerisinde
             - Runner class
             - test datalarini kullanmak icin .json dosyalari
             - feature'lar
+         olusturup basic veya kompleks datalar uzerinde kolaylikla calismalar yurutebilirim
 
    * runner class'ında  herhangi @ ile testlerimi calistirdigimda dependency'lerin son versiyonlarinda hata aliyorum,
         bu yüzden pom.xml dosyama ekledigim dependency versiyonlarinin 0.9.4 olmasi gerekmekte
