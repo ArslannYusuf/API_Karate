@@ -1,6 +1,6 @@
  # https://github.com/karatelabs/karate sayfasi üzerinden ilgili step methodlarina ulasabilirim
 
-
+ @api
 Feature: JPH01 Kulanici GET Resquest sonucu donen response'i test eder
 
   Scenario: TC01 Get request'e donen response'in beklenilen ozelliklerde olmasi gerekir
