@@ -4,7 +4,7 @@ NOTES:
    * Karate framework, cucumber framework'une gore cok daha sade ve kullanisli bir yapiya sahip
 
    * Stepdefination class'larina ihtiyac duymaksızın;
-        https://github.com/karatelabs/karate sayfasi üzerinden ilgili step methodlari sayesinde BDD olarak feature'lari yazabilirim
+       " https://github.com/karatelabs/karate " sayfasi üzerinden ilgili step methodlari sayesinde BDD olarak feature'lari yazabilirim
 
    * target/surefire-reports dosyasi altinda yer alan raporlari karatere frameworku plugin eklemeden otomatik olarak hazirlamakta
 
