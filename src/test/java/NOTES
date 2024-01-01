@@ -1,0 +1,29 @@
+
+NOTES:
+
+   * Karate framework, cucumber framework'une gore cok daha sade ve kullanisli bir yapiya sahip
+
+   * Stepdefination class'larina ihtiyac duymaksızın;
+        https://github.com/karatelabs/karate sayfasi üzerinden ilgili step methodlari sayesinde BDD olarak feature'lari yazabilirim
+
+   * target/surefire-reports dosyasi altinda yer alan raporlari karatere frameworku plugin eklemeden otomatik olarak hazirlamakta
+
+   * karate framework sayesinde farkli package'lar olusturmaya gerek kalmiyor
+         ancak, ayni olan testler icin tek bir package icerinde
+            - Runner class
+            - test datalarini kullanmak icin .json dosyalari
+            - feature'lar
+
+   * runner class'ında  herhangi @ ile testlerimi calistirdigimda dependency'lerin son versiyonlarinda hata aliyorum,
+        bu yüzden pom.xml dosyama ekledigim dependency versiyonlarinin 0.9.4 olmasi gerekmekte
+
+   * @api seklinde bazi feature'lara ekledigim taglar ile Runner Class'ından calistirdigimda @api ekledigim feature'larin
+        haricindekileri de default olarak rapor halinde terminalde gostermekte
+
+   * bu proje karate-junit4 ile olsuturuldu, karate-junit5 ile gelen guncellemeler sayesinde runner class'i olusuturulmadan
+        runner class'i yerine kendisinin configuration class'i olusuturup onun icindeki methodlarla tanimlamayi ve
+        toplu halde calistirma islmeleri gerceklestirilebiliyor...
+
+
+
+
